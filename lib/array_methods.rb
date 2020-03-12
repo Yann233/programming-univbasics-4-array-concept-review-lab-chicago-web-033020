@@ -1,8 +1,8 @@
 def find_element_index(array, value_to_find)
-  count=0
+  i=0
   while i<array.length do
     array.index(value_to_find[i])
-    count+=1#count=count+1
+    count+=1 #count=count+1
   end
   nil
 end
