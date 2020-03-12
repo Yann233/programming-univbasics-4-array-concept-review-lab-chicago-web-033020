@@ -60,10 +60,10 @@ end
 #end
 def find_min_value(array)
   x=array[0]#the 1st # is the greatest one,compare it with each one
-  array.length.times {|i|
+  array.length.times do |i|#此do可以换成{
     if array[i]<x
       x=array[i]
     end
-  }
+  end#这个可以换成}
   x
 end
