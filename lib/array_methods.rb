@@ -1,11 +1,26 @@
-def find_element_index(array, value_to_find)
+#def find_element_index(array, value_to_find)
+#  i=0
+#  while i<array.length do
+#    return array.index(value_to_find)
+#    i+=1 #i=i+1
+#  end
+#  nil
+#end
+def find_element_index(array,value_to_find)
   i=0
   while i<array.length do
-    return array.index(value_to_find)
-    i+=1 #i=i+1
+    if array[i]==value_to_find
+      return i
+    end
+    i+=1 
   end
-  nil
+  nil 
 end
+
+
+
+
+
 
 def find_max_value(array)
   array.max()# Add your solution here
