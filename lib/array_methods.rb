@@ -19,9 +19,9 @@
 #end
 ################
 def find_element_index(array,value_to_find)
-  array.length.times do |i|
-    if array[i]==value_to_find
-      return i
+  array.length.times do |count|
+    if array[count]==value_to_find
+      return count
     end
     nil
   end
