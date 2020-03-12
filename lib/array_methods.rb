@@ -37,7 +37,7 @@ end
 
 def find_max_value(array)
   #x=array[0]#the 1st # is the greatest one,compare it with each one
-x=0
+ x=array[0]
   array.length.times {|i|  #{这个是do，}这个是end
     if array[i]>x
       x=array[i]
