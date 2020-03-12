@@ -51,7 +51,7 @@ end
 def find_min_value(array)
   x=array[0]#the 1st # is the greatest one,compare it with each one
   array.length.times {|i|
-    if array[i]>x
+    if array[i]<x
       x=array[i]
     end
   }
