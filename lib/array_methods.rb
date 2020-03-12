@@ -35,9 +35,19 @@ end
 #  array.max()# Add your solution here
 #end
 
+#def find_max_value(array)
+#  #x=array[0]#the 1st # is the greatest one,compare it with each one
+#  x=array[0]
+#  array.length.times {|i|  #{这个是do，}这个是end
+#    if array[i]>x
+#      x=array[i]
+#    end
+#  }
+#  x
+#end
+
 def find_max_value(array)
-  #x=array[0]#the 1st # is the greatest one,compare it with each one
-  x=array[0]
+  x=0#因为0是最小数，所以和0比较
   array.length.times {|i|  #{这个是do，}这个是end
     if array[i]>x
       x=array[i]
@@ -45,7 +55,6 @@ def find_max_value(array)
   }
   x
 end
-
 #def find_min_value(array)
 #  array.min()# Add your solution here
 #end
