@@ -55,6 +55,13 @@ end
 #  }
 #  x
 #end
+#######################################
+def find_max_value(array)
+  x=0#因为0是最小数，所以和0比较
+  array.length.times {|i| x=array[i] if array[i]>x} #{这个是do，}这个是end
+  x
+end
+######################################
 def find_min_value(array)
   array.min()# Add your solution here
 end
